@@ -1,0 +1,13 @@
+@import "./../vendor/normolizr";
+@import "init";
+
+.transparent
+{
+  @include transparent(60);
+}
+
+.border-radius
+{
+  @include border-radius(5px);
+  border:1px solid #333;
+}

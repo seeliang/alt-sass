@@ -1,0 +1,18 @@
+%clearfix
+{
+  &:before,&:after 
+  {
+    content:"";
+    display:table;
+  }
+  &:after
+  {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+  }
+}
+// more info http://css-tricks.com/snippets/css/clear-fix/
