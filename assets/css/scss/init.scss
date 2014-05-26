@@ -1,14 +1,23 @@
-@mixin border-radius($x)
-{
-	  /* Safari 3-4, iOS 1-3.2, Android 1.6- */
-  -webkit-border-radius: $x; 
-
-  /* Firefox 1-3.6 */
-  -moz-border-radius: $x; 
+@mixin border-radius($tl:5px, $tr:$tl, $br:$tl, $bl:$tl)
+{ 
+    -webkit-border-top-left-radius: $tl;
+    -webkit-border-top-right-radius: $tr;
+    -webkit-border-bottom-right-radius: $br;
+    -webkit-border-bottom-left-radius: $bl;
   
-  /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
-  border-radius: $x; 
-}
+    -moz-border-radius-topleft: $tl;
+    -moz-border-radius-topright: $tr;
+    -moz-border-radius-bottomright: $br;
+    -moz-border-radius-bottomleft: $bl;
+  
+    border-top-left-radius: $tl;
+    border-top-right-radius: $tr;
+    border-bottom-right-radius: $br;
+    border-bottom-left-radius: $bl;
+}    
+
+
+
 
 %clearfix
 {

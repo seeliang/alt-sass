@@ -26,8 +26,8 @@ module.exports = function(grunt) {
 		sass: {
 			dist: {
 				options: {
-					style: 'compressed'
-					//style: 'expanded'
+					//style: 'compressed'
+					style: 'expanded'
 				},
 				files: {
 					'assets/css/main.css': 'assets/css/scss/demo.scss',
@@ -44,9 +44,7 @@ module.exports = function(grunt) {
 					spawn: false
 				}
 			}
-		},
-		
-	 
+		}
 
 
 	});
