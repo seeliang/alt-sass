@@ -1,13 +1,11 @@
 @import "./../vendor/normolizr";
 @import "init";
 
-.transparent
+p
 {
   @include transparent(60);
-}
-
-.border-radius
-{
   @include border-radius(5px, 6px);
   border: 1px solid #333;
+  
+  @include transparentbg(#357, 0.4);
 }

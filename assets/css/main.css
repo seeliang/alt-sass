@@ -394,12 +394,9 @@ th {
   padding: 0;
 }
 
-.transparent {
+p {
   opacity: 0.6;
   filter: alpha(opacity=60);
-}
-
-.border-radius {
   -webkit-border-top-left-radius: 5px;
   -webkit-border-top-right-radius: 6px;
   -webkit-border-bottom-right-radius: 5px;
@@ -413,4 +410,8 @@ th {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   border: 1px solid #333;
+  background-color: transparent;
+  background-color: rgba(51, 85, 119, 0.4);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66335577,endColorstr=#66335577);
+  zoom: 1;
 }
