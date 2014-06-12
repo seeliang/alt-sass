@@ -4,8 +4,23 @@
 p
 {
   @include transparent(60);
-  @include border-radius(5px, 6px);
-  border: 1px solid #333;
-  
+  @include border-radius(5px, 76px);
+  @include transition(1s);
   @include transparentbg(#357, 0.4);
+  text-align:center;
+  line-height:300px;
+  color:#789;
+  border: 1px solid #333;
+  font-size:60px;
+  &:hover
+  {
+    @include transparentbg(#123, 0.8);
+    color:#fed;
+   // @include transparent(60);
+  }
+}
+
+div
+{
+  background-image:url("http://bower.io/img/bower-logo.png");
 }

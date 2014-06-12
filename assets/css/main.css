@@ -396,22 +396,41 @@ th {
 
 p {
   opacity: 0.6;
-  filter: alpha(opacity=60);
   -webkit-border-top-left-radius: 5px;
-  -webkit-border-top-right-radius: 6px;
+  -webkit-border-top-right-radius: 76px;
   -webkit-border-bottom-right-radius: 5px;
   -webkit-border-bottom-left-radius: 5px;
   -moz-border-radius-topleft: 5px;
-  -moz-border-radius-topright: 6px;
+  -moz-border-radius-topright: 76px;
   -moz-border-radius-bottomright: 5px;
   -moz-border-radius-bottomleft: 5px;
   border-top-left-radius: 5px;
-  border-top-right-radius: 6px;
+  border-top-right-radius: 76px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
-  border: 1px solid #333;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
   background-color: transparent;
   background-color: rgba(51, 85, 119, 0.4);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66335577,endColorstr=#66335577);
   zoom: 1;
+  text-align: center;
+  line-height: 300px;
+  color: #789;
+  border: 1px solid #333;
+  font-size: 60px;
+}
+p:hover {
+  background-color: transparent;
+  background-color: rgba(17, 34, 51, 0.8);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC112233,endColorstr=#CC112233);
+  zoom: 1;
+  color: #fed;
+}
+
+div {
+  background-image: url("http://bower.io/img/bower-logo.png");
 }
