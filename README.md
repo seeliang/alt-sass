@@ -1,6 +1,8 @@
 init-sass
 =========
 
-some basic Sass code 
+**Discontinued **
  
+use [autoprefixer](https://github.com/postcss/autoprefixer) instead
+
 the main file : assets/css/scss/ini.scss 
