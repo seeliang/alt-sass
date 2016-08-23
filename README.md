@@ -1,7 +1,7 @@
 init-sass
 =========
 
-**Discontinued **
+##Discontinued
  
 use [autoprefixer](https://github.com/postcss/autoprefixer) instead
 
